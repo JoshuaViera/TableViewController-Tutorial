@@ -165,14 +165,14 @@ Control-drag the MapView to the SettingsViewController
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-map-view-outlet.png" width="1078" height="744" />
 </p>
 
-The completed Main.storyboard file
+The completed Main.storyboard file. A View Controller embedded in a Navigation Controller. The View Controller has a UIButton centered verticall and horizontally called "Settings". Tapping on the "Settings" button perform a push segue to the Table View Controller (SettingsViewController). The SettingsViewController consists of six UILabel's and a Map View. The UI elements are updated in the SettingsViewController using test values. In a production app the values of the SettingsViewController would be injected via an initializer or property on the SettingsViewController.
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/completed-storyboard.png" weight="970" height="462" />
 </p>
 
 
-Here is our completed Table View tutorial UI. A View Controller embedded in a Navigation Controller. The View Controller has a UIButton centered verticall and horizontally called "Settings". Tapping on the "Settings" button perform a push segue to the Table View Controller (SettingsViewController). The SettingsViewController consists of six UILabel's and a Map View. The UI elements are updated in the SettingsViewController using test values. In a production app the values of the SettingsViewController would be injected via an initializer or property on the SettingsViewController.
+Here is our completed Table View tutorial UI. 
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/completed-settings.png" width="312" height="541" />
