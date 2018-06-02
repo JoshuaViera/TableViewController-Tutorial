@@ -49,7 +49,7 @@ Change the Table View content from **Dynamic Prototypes** to Static Cells in the
 If needed base on your design you can change the number of sections the Table View contains in the Main.storyboad
 
 <p align="center">
-<img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/change-number-sections-storyboard.png" width="1407" height="829" />
+<img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/change-number-sections-storyboard.png" width="1407" height="663" />
 </p>
 
 The Table View cells, sections can be edited in the Document outline of Xcode. 
