@@ -168,7 +168,7 @@ Control-drag the MapView to the SettingsViewController
 The completed Main.storyboard 
 
 <p align="center">
-<https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/completed-storyboard.png" weight="1617" height="771" />
+<img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/completed-storyboard.png" weight="1617" height="771" />
 </p>
 
 
