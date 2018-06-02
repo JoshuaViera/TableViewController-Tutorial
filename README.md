@@ -33,26 +33,26 @@ Set the class name in the Identiy inspector to the newly create SettingsViewCont
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/set-class-name-storyboard.png" width="728" height="872" />
 </p>
 
-Drag a Navigation Item control to the SettingsViewController storyboard then name the title "Settings".
+Drag a Navigation Item control to the SettingsViewController Navigation bar in the storyboard canvas and name the title "Settings".
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-navigation-item-to-settings-view-controller.png" width="758" height="888" />
 </p>
 
 
-Change the Table View content from **Dynamic Prototypes** to Static Cells in the **Attributes Inspector**.  
+Change the Table View content from **Dynamic Prototypes** to **Static Cells** in the **Attributes Inspector**.  
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/dynamic-to-static-cells.png" width="817" height="877" />
 </p>
 
-If needed base on your design you can change the number of sections the Table View contains in the Main.storyboad
+There should be 2 sections so add one more section for the Table View.
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/change-number-sections-storyboard.png" width="1407" height="663" />
 </p>
 
-The Table View cells, sections can be edited in the Document outline of Xcode. 
+The Table View cells, sections can be edited using the Document outline of Xcode. 
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/edit-table-view-document-outline.png" width="1111" height="935" />
@@ -81,14 +81,14 @@ class SettingsViewController: UITableViewController {
 }
 ```
 
-Drag a Map Kit View over to the Map Cell. Set the constraints to all the edges of the cell at value 0. 
+Drag a **Map Kit View** over to the Map Cell. Set the constraints to all the edges of the cell at value 0. 
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/map-view-contraints.png" width="900" height="821" />
 </p>
 
 
-Drag six UILabel controls to represent a Name, Email, Phone attribute for a fictional Person object.
+Drag six UILabel controls to represent a Name, Email, Phone attribute along with the value labels for a fictional Person object.
 
 Key Label constraints are set up as follows: 
 
@@ -102,13 +102,13 @@ Value label constraints are set up as follows:
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/value-constraints.png" width="860" height="697" />
 </p>
 
-Error due to MKMapView being undeclared. We need to import MapKit 
+Error due to MKMapView being undeclared. We need to **import MapKit**  
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/error-undeclared-type-mkmapview.png" width="542" height="398" />
 </p>
 
-After importing MapKit the updated SettingsViewController should be as below: 
+After importing MapKit the updated SettingsViewController should be as follows: 
 
 ```swift 
 import UIKit
@@ -165,14 +165,14 @@ Control-drag the MapView to the SettingsViewController
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-map-view-outlet.png" width="1078" height="744" />
 </p>
 
-The completed Main.storyboard 
+The completed Main.storyboard file
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/completed-storyboard.png" weight="970" height="462" />
 </p>
 
 
-Completed look of our SettingsViewController 
+Here is our completed Table View tutorial UI
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/completed-settings.png" width="312" height="541" />
 </p>
