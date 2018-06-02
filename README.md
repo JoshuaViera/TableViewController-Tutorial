@@ -156,7 +156,7 @@ class SettingsViewController: UITableViewController {
 Control-drag UILabels to the SettingViewController 
 
 <p align="center">
-<img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-label-outlets.png" width="1256" height="724" />
+<img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-label-outlets.png" width="1078" height="744" />
 </p>
 
 Control-drag the MapView to the SettingsViewController 
