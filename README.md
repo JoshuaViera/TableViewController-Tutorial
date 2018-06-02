@@ -1,10 +1,10 @@
-## TableViewController Tutorial
+## Table View Controller Tutorial
 
 ## Objective 
 
-This app is built to demonstrate adding a UITableViewController to your app add static UITableViewCell's. This feature is similar to achieveing the look of a Settings screen similar to the iPhone Settings screen. In such a table view the cells are pre-determined so static cells are used.
+This app is built to demonstrate adding a UITableViewController to your app. A UITableViewController allows the use of static cells. The goal of using static cells is to achieve the look of a Settings screen similar to the iPhone Settings screen. In such a table view the cells are pre-determined so static cells are ideal.
 
-Drag a Table View Controller onto your Main.storyboard 
+Drag a **Table View Controller** onto your Main.storyboard 
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-table-view-controller.png" width="1080" height="624" />
@@ -27,13 +27,13 @@ class SettingsViewController: UITableViewController {
 }
 ```
 
-Set the class name in the Identiy inspector to the newly create SettingsViewController subclass of the generic UITableViewController.
+Set the class name in the **Identiy inspector** to the newly create SettingsViewController subclass of the generic UITableViewController.
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/set-class-name-storyboard.png" width="728" height="872" />
 </p>
 
-Drag a Navigation Item control to the SettingsViewController Navigation bar in the storyboard canvas and name the title "Settings".
+Drag a **Navigation Item** control to the SettingsViewController Navigation bar in the storyboard canvas and name the title "Settings".
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-navigation-item-to-settings-view-controller.png" width="758" height="888" />
@@ -52,7 +52,7 @@ There should be 2 sections so add one more section for the Table View.
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/change-number-sections-storyboard.png" width="1407" height="663" />
 </p>
 
-The Table View cells, sections can be edited using the Document outline of Xcode. 
+The Table View cells, sections can be edited using the **Document outline** of Xcode. 
 
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/edit-table-view-document-outline.png" width="1111" height="935" />
@@ -172,7 +172,8 @@ The completed Main.storyboard file
 </p>
 
 
-Here is our completed Table View tutorial UI
+Here is our completed Table View tutorial UI. A View Controller embedded in a Navigation Controller. The View Controller has a UIButton centered verticall and horizontally called "Settings". Tapping on the "Settings" button perform a push segue to the Table View Controller (SettingsViewController). The SettingsViewController consists of six UILabel's and a Map View. The UI elements are updated in the SettingsViewController using test values. In a production app the values of the SettingsViewController would be injected via an initializer or property on the SettingsViewController.
+
 <p align="center">
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/completed-settings.png" width="312" height="541" />
 </p>
