@@ -13,6 +13,7 @@
 		57D2027F20C20EA40061B122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D2027E20C20EA40061B122 /* Assets.xcassets */; };
 		57D2028220C20EA40061B122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D2028020C20EA40061B122 /* LaunchScreen.storyboard */; };
 		57D2028D20C20EA40061B122 /* TableViewController_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2028C20C20EA40061B122 /* TableViewController_TutorialTests.swift */; };
+		57D2029A20C212CD0061B122 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2029920C212CD0061B122 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		57D2028820C20EA40061B122 /* TableViewController-TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewController-TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D2028C20C20EA40061B122 /* TableViewController_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController_TutorialTests.swift; sourceTree = "<group>"; };
 		57D2028E20C20EA40061B122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D2029920C212CD0061B122 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				57D2027720C20EA30061B122 /* AppDelegate.swift */,
 				57D2027920C20EA30061B122 /* ViewController.swift */,
+				57D2029920C212CD0061B122 /* SettingsViewController.swift */,
 				57D2027B20C20EA30061B122 /* Main.storyboard */,
 				57D2027E20C20EA40061B122 /* Assets.xcassets */,
 				57D2028020C20EA40061B122 /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			files = (
 				57D2027A20C20EA30061B122 /* ViewController.swift in Sources */,
 				57D2027820C20EA30061B122 /* AppDelegate.swift in Sources */,
+				57D2029A20C212CD0061B122 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
