@@ -165,6 +165,12 @@ Control-drag the MapView to the SettingsViewController
 <img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-map-view-outlet.png" width="1078" height="744" />
 </p>
 
+The completed Main.storyboard 
+
+<p align="center">
+<https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/completed-storyboard.png" weight="1617" height="771" />
+</p>
+
 
 Completed look of our SettingsViewController 
 <p align="center">
