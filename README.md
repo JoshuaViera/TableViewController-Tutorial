@@ -7,7 +7,7 @@ This app is built to demonstrate adding a UITableViewController to your app add 
 Drag a Table View Controller onto your Main.storyboard 
 
 <p align="center">
-<img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-table-view-controller.png" width="1080" height="781" />
+<img src="https://github.com/alexpaul/TableViewController-Tutorial/blob/master/Images/drag-table-view-controller.png" width="1080" height="624" />
 </p>
 
 
